@@ -13,7 +13,7 @@
 
 ## Статус
 - [x] Бот готов и протестирован вживую
-- [x] Демо-ролик: `media/britva_demo.mp4` (Remotion, см. ниже). Старая запись экрана — `media/britva_screen_demo.mp4`, исходники с номерами — `media/raw/` (в .gitignore, не публиковать)
+- [x] Демо-ролик: `media/britva_demo.mp4` (Remotion, см. ниже). Старая запись экрана — `media/britva_screen_demo.mp4` (локально, не в git). Сырые записи экрана с номерами удалены; `media/raw/` в .gitignore на будущее
 - [x] На GitHub: github.com/Slomi/BrBot (публичный, секретов нет)
 - [ ] Демо №2: AI-консультант по базе знаний бизнеса (прайс, FAQ)
 - [ ] Демо №3: мониторинг цен WB/Ozon с отчётами в Telegram
