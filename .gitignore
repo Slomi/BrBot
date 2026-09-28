@@ -3,3 +3,5 @@
 __pycache__/
 .venv/
 bot.log
+media/raw/
+media/britva_screen_demo.mp4

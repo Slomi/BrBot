@@ -13,10 +13,14 @@
 
 ## Статус
 - [x] Бот готов и протестирован вживую
-- [x] Демо-видео: `~/Videos/britva_demo_v2.mp4` (обрезано до окон Telegram, номера размыты с учётом прокрутки, проверено OCR по всем кадрам)
+- [x] Демо-ролик: `media/britva_demo.mp4` (Remotion, см. ниже). Старая запись экрана — `media/britva_screen_demo.mp4`, исходники с номерами — `media/raw/` (в .gitignore, не публиковать)
 - [x] На GitHub: github.com/Slomi/BrBot (публичный, секретов нет)
 - [ ] Демо №2: AI-консультант по базе знаний бизнеса (прайс, FAQ)
 - [ ] Демо №3: мониторинг цен WB/Ozon с отчётами в Telegram
 - [ ] Профиль и услуги на Kwork, отклики на FL.ru / Habr Freelance
 
 Бот может работать только в одном месте одновременно (иначе Telegram вернёт conflict).
+
+## Демо-ролик (`video/`)
+Как в демо №2: `.venv\Scripts\python video\gen_script.py` прогоняет сценарий через настоящие обработчики (напоминание — настоящий `send_reminders` с переведёнными часами), затем
+`cd video && npx remotion render BritvaDemo ../media/britva_demo.mp4`. Тексты, аватар и подписи к шагам — `video/src/config.ts`.
